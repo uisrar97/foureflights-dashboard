@@ -1,0 +1,67 @@
+.suggest-spans {
+  display: flex  !important;
+  align-items: center  !important;
+  background-repeat: no-repeat  !important;
+  background-size: 20px  !important;
+  background-position-y: center  !important;
+}
+.airport-name {
+  font-size: 13px;
+}
+.suggestions {
+  background-color: #F6FBFF;
+  max-height: 250px;
+  overflow: auto;
+  z-index: 100;
+  top: 65px;
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.suggest-spans .inner-suggest-span {
+  margin-left: 15px !important;
+  line-height: 15px !important;
+  font-size: 13px !important;
+}
+
+
+.react-autosuggest__suggestions-list {
+  background-color: #F6FBFF;
+}
+
+.city-field, .city-icon {
+  border: none !important;
+  background-color: #c5d7ea !important;
+}
+
+.city-field {
+  color: #000 !important;
+}
+
+.city-field:focus {
+  box-shadow: none !important;
+}
+
+.fa-plane {
+  color: #0C7EAF;
+}
+
+.suggestion-content {
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.remove-flex{
+  flex-basis: unset !important;
+}
+
+.country-name-field{
+  font-size: 11px;
+}
+
+.suggest-item{
+  border-bottom: 1px solid #b3b3b387
+}
+.suggest-item:hover{
+  background-color: #e6eeef
+}
